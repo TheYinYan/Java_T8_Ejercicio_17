@@ -1,4 +1,9 @@
 public class App {
+    /**
+     * Pasa de Binario a Decimal 
+     * @param num Numero Binario 
+     * @return Numero decimal
+     */
     public static int aDecimal(int num) {
         int decimal = 0;
         int digitos = Mates.digitos(num);
